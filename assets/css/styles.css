@@ -81,3 +81,9 @@ radial-gradient(circle at 70% 50%,transparent 24px,black 25px);
 .footer-contact a{color:var(--white)}
 .footer-address{color:var(--muted)}
 .footer-social{display:flex;gap:12px}
+@media(max-width:520px){
+  .cta-group{flex-wrap:nowrap;gap:10px}
+  .btn{padding:10px;min-width:44px;height:44px}
+  .btn svg{width:22px;height:22px;margin-right:0}
+  .btn-label{display:none}
+}
