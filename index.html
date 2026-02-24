@@ -1,157 +1,470 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ótica Ponto D’ Vista</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ótica Ponto D' Vista — Exames de vista, armações modernas, lentes especiais e muito mais em Paulista - PE.">
+  <title>Ótica Ponto D' Vista</title>
+
+  <!-- Favicon SVG -->
+  <link rel="icon" href="./assets/img/favicon.svg" type="image/svg+xml">
+
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-  <link rel="icon" href="./assets/img/favicon.svg" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
   <link rel="stylesheet" href="./assets/css/styles.css">
-
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ótica Ponto D’ Vista</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="icon" href="./assets/img/favicon.svg" type="image/svg+xml">
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./assets/css/styles.css">
-
 </head>
 <body>
 
-<main>
-<section class="hero">
-  <div class="hero-bg"></div>
-  <div class="hero-pattern"></div>
-  <div class="hero-content">
-    <div class="hero-mark">
-      <svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="60" cy="40" r="22" fill="none" stroke="#D4AF37" stroke-width="3"/>
-        <circle cx="140" cy="40" r="22" fill="none" stroke="#D4AF37" stroke-width="3"/>
-        <path d="M82 40 L118 40" stroke="#D4AF37" stroke-width="3" fill="none"/>
-      </svg>
-    </div>
-    <h1>Ótica Ponto D’ Vista</h1>
-    <div class="cta-group">
-      <a
-        id="whatsapp-btn"
-        class="btn btn-gold"
-        href="https://wa.me/5581995554304?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20%C3%93tica%20Ponto%20D%27%20Vista%20e%20gostaria%20de%20tirar%20uma%20d%C3%BAvida."
-        target="_blank"
-        rel="noopener"
-        aria-label="Falar no WhatsApp"
-      >
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M20.52 3.48A11.8 11.8 0 0012 0C5.383 0 0 5.383 0 12a11.84 11.84 0 001.603 6.013L0 24l6.154-1.586A11.84 11.84 0 0012 24c6.617 0 12-5.383 12-12 0-3.168-1.234-6.146-3.48-8.52zM12 21.9c-1.775 0-3.523-.466-5.04-1.348l-.363-.215-3.653.943.975-3.56-.236-.376A9.878 9.878 0 012.1 12C2.1 6.57 6.57 2.1 12 2.1c2.623 0 5.089 1.023 6.94 2.874A9.803 9.803 0 0121.9 12c0 5.43-4.47 9.9-9.9 9.9z" fill="currentColor"/>
-          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.029-.967-.271-.099-.469-.149-.668.15-.198.297-.767.967-.94 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.463-2.39-1.476-.883-.788-1.48-1.76-1.653-2.057-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.173.198-.297.297-.495.099-.198.05-.372-.025-.521-.074-.149-.668-1.612-.915-2.21-.242-.579-.487-.501-.668-.51-.173-.009-.372-.011-.571-.011-.198 0-.52.074-.792.372-.271.297-1.04 1.016-1.04 2.479s1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.694.626.712.226 1.36.194 1.873.118.571-.085 1.758-.718 2.006-1.412.247-.694.247-1.289.173-1.412-.074-.123-.272-.198-.571-.347z" fill="currentColor"/>
+  <!-- ===================== HEADER / NAV ===================== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="header__logo" aria-label="Ótica Ponto D' Vista — Início">
+        <svg class="logo-icon" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="60"  cy="40" r="22" fill="none" stroke="currentColor" stroke-width="3"/>
+          <circle cx="140" cy="40" r="22" fill="none" stroke="currentColor" stroke-width="3"/>
+          <line   x1="82"  y1="40" x2="118" y2="40" stroke="currentColor" stroke-width="3"/>
         </svg>
-        <span class="btn-label">Falar no WhatsApp</span>
+        <span class="logo-text">Ótica Ponto D' Vista</span>
       </a>
-      <a
-        class="btn btn-outline"
-        href="https://www.google.com/maps/search/?api=1&query=Av.+A,+395+A+-+Maranguape+II,+Paulista+-+PE,+53421-030"
-        target="_blank"
-        rel="noopener"
-        aria-label="Ver Localização"
-      >
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M12 2c-4.4 0-8 3.6-8 8 0 6 8 12 8 12s8-6 8-12c0-4.4-3.6-8-8-8zm0 11a3 3 0 110-6 3 3 0 010 6z" stroke-width="2"/>
-        </svg>
-        <span class="btn-label">Ver Localização</span>
-      </a>
-      <a
-        class="btn btn-outline"
-        href="https://www.instagram.com/"
-        target="_blank"
-        rel="noopener"
-        aria-label="Instagram"
-      >
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-          <rect x="3" y="3" width="18" height="18" rx="5"/>
-          <circle cx="12" cy="12" r="4"/>
-          <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
-        </svg>
-        <span class="btn-label">Instagram</span>
-      </a>
-    </div>
-  </div>
-</section>
-<section class="sobre">
-<div class="decor-oculos"></div>
 
-</section>
-<section class="servicos">
-  <div class="container">
-    <h2>Serviços</h2>
-    <div class="cards">
-      <div class="card">Exame de vista</div>
-      <div class="card">Armações modernas</div>
-      <div class="card">Lentes antirreflexo</div>
-      <div class="card">Lentes com filtro azul</div>
-      <div class="card">Ajuste e manutenção</div>
-      <div class="card">Óculos de sol</div>
+      <nav class="nav" aria-label="Navegação principal">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#servicos">Serviços</a></li>
+          <li><a class="nav__link" href="#galeria">Galeria</a></li>
+          <li><a class="nav__link" href="#faq">Dúvidas</a></li>
+          <li>
+            <a class="nav__link nav__link--cta" href="https://wa.me/5581995554304?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20%C3%93tica%20Ponto%20D%27%20Vista%20e%20gostaria%20de%20tirar%20uma%20d%C3%BAvida." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+              Falar no WhatsApp
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-mobile">
+        <span></span><span></span><span></span>
+      </button>
     </div>
-  </div>
-</section>
-<section class="faq">
-  <div class="container">
-    <h2>Dúvidas Frequentes</h2>
-    <div class="accordion">
-      <div class="accordion-group">
-        <h3>Sobre Armações</h3>
-        <button class="accordion-item"><span>Como escolher a armação ideal?</span></button>
-        <div class="accordion-panel">
-          <p>Escolha considerando o formato do rosto e conforto. Busque equilíbrio entre largura da armação e do rosto.</p>
+
+    <!-- Mobile Nav -->
+    <div class="nav-mobile" id="nav-mobile" aria-hidden="true">
+      <ul class="nav-mobile__list">
+        <li><a class="nav-mobile__link" href="#servicos">Serviços</a></li>
+        <li><a class="nav-mobile__link" href="#galeria">Galeria</a></li>
+        <li><a class="nav-mobile__link" href="#faq">Dúvidas</a></li>
+        <li><a class="nav-mobile__link nav-mobile__link--cta" href="https://wa.me/5581995554304?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20%C3%93tica%20Ponto%20D%27%20Vista%20e%20gostaria%20de%20tirar%20uma%20d%C3%BAvida." target="_blank" rel="noopener">Falar no WhatsApp</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="inicio" aria-label="Apresentação">
+      <div class="hero__overlay"></div>
+      <div class="hero__particles" aria-hidden="true"></div>
+      <div class="container hero__content">
+        <div class="hero__badge" aria-hidden="true">
+          <svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="60"  cy="40" r="22" fill="none" stroke="#D4AF37" stroke-width="2.5"/>
+            <circle cx="140" cy="40" r="22" fill="none" stroke="#D4AF37" stroke-width="2.5"/>
+            <line   x1="82"  y1="40" x2="118" y2="40" stroke="#D4AF37" stroke-width="2.5"/>
+          </svg>
         </div>
-        <button class="accordion-item"><span>Metal ou acetato: qual melhor?</span></button>
-        <div class="accordion-panel"><p>Metal é leve e discreto. Acetato é mais resistente e estiloso.</p></div>
-        <button class="accordion-item"><span>Armação para grau alto?</span></button>
-        <div class="accordion-panel"><p>Armações menores e mais grossas ajudam a disfarçar lentes espessas.</p></div>
-        <button class="accordion-item"><span>Armação infantil é diferente?</span></button>
-        <div class="accordion-panel"><p>Sim, tem encaixe melhor e maior resistência para o uso diário.</p></div>
+        <h1 class="hero__title">Ótica Ponto D' Vista</h1>
+        <p class="hero__subtitle">Enxergue o mundo com clareza e estilo.<br>Qualidade e cuidado em cada detalhe.</p>
+        <div class="hero__actions">
+          <a class="btn btn--gold" href="https://wa.me/5581995554304?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20%C3%93tica%20Ponto%20D%27%20Vista%20e%20gostaria%20de%20tirar%20uma%20d%C3%BAvida." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="btn__icon">
+              <path d="M20.52 3.48A11.8 11.8 0 0012 0C5.383 0 0 5.383 0 12a11.84 11.84 0 001.603 6.013L0 24l6.154-1.586A11.84 11.84 0 0012 24c6.617 0 12-5.383 12-12 0-3.168-1.234-6.146-3.48-8.52zM12 21.9c-1.775 0-3.523-.466-5.04-1.348l-.363-.215-3.653.943.975-3.56-.236-.376A9.878 9.878 0 012.1 12C2.1 6.57 6.57 2.1 12 2.1c2.623 0 5.089 1.023 6.94 2.874A9.803 9.803 0 0121.9 12c0 5.43-4.47 9.9-9.9 9.9z" fill="currentColor"/>
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.029-.967-.271-.099-.469-.149-.668.15-.198.297-.767.967-.94 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.463-2.39-1.476-.883-.788-1.48-1.76-1.653-2.057-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.173.198-.297.297-.495.099-.198.05-.372-.025-.521-.074-.149-.668-1.612-.915-2.21-.242-.579-.487-.501-.668-.51-.173-.009-.372-.011-.571-.011-.198 0-.52.074-.792.372-.271.297-1.04 1.016-1.04 2.479s1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.694.626.712.226 1.36.194 1.873.118.571-.085 1.758-.718 2.006-1.412.247-.694.247-1.289.173-1.412-.074-.123-.272-.198-.571-.347z" fill="currentColor"/>
+            </svg>
+            Falar no WhatsApp
+          </a>
+          <a class="btn btn--outline" href="https://www.google.com/maps/search/?api=1&query=Av.+A,+395+A+-+Maranguape+II,+Paulista+-+PE,+53421-030" target="_blank" rel="noopener" aria-label="Ver localização no mapa">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="btn__icon">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1112 6a2.5 2.5 0 010 5.5z" fill="currentColor"/>
+            </svg>
+            Ver Localização
+          </a>
+          <a class="btn btn--outline" href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="btn__icon" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5"/>
+              <circle cx="12" cy="12" r="4"/>
+              <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+            </svg>
+            Instagram
+          </a>
+        </div>
       </div>
-      <div class="accordion-group">
-        <h3>Sobre Lentes</h3>
-        <button class="accordion-item"><span>O que é lente antirreflexo?</span></button>
-        <div class="accordion-panel"><p>Reduz reflexos e melhora a nitidez.</p></div>
-        <button class="accordion-item"><span>Filtro azul funciona?</span></button>
-        <div class="accordion-panel"><p>Ajuda a reduzir cansaço visual de telas.</p></div>
-        <button class="accordion-item"><span>Lente arranha fácil?</span></button>
-        <div class="accordion-panel"><p>Sem cuidado, sim. Use pano de microfibra.</p></div>
-        <button class="accordion-item"><span>Lentes ficam mais grossas com grau alto?</span></button>
-        <div class="accordion-panel"><p>Sim, mas lentes de alto índice reduzem espessura.</p></div>
-        <button class="accordion-item"><span>Posso reaproveitar minha armação antiga?</span></button>
-        <div class="accordion-panel"><p>Depende do estado, geralmente é possível.</p></div>
+      <div class="hero__scroll-hint" aria-hidden="true">
+        <span></span>
+      </div>
+    </section>
+
+    <!-- ===================== DIFERENCIAIS ===================== -->
+    <section class="diferenciais" aria-label="Nossos diferenciais">
+      <div class="container">
+        <div class="diferenciais__grid">
+          <div class="diferencial-card" data-aos>
+            <div class="diferencial-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                <circle cx="12" cy="12" r="3"/>
+              </svg>
+            </div>
+            <h3 class="diferencial-card__title">Exame de Vista</h3>
+            <p class="diferencial-card__desc">Avaliação precisa com profissionais qualificados para garantir a sua saúde visual.</p>
+          </div>
+          <div class="diferencial-card" data-aos>
+            <div class="diferencial-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+            </div>
+            <h3 class="diferencial-card__title">Qualidade Garantida</h3>
+            <p class="diferencial-card__desc">Produtos de marcas renomadas com garantia e suporte completo pós-venda.</p>
+          </div>
+          <div class="diferencial-card" data-aos>
+            <div class="diferencial-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+            </div>
+            <h3 class="diferencial-card__title">Atendimento Ágil</h3>
+            <p class="diferencial-card__desc">Entrega rápida e atendimento personalizado para cada cliente.</p>
+          </div>
+          <div class="diferencial-card" data-aos>
+            <div class="diferencial-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
+              </svg>
+            </div>
+            <h3 class="diferencial-card__title">Atendimento Humanizado</h3>
+            <p class="diferencial-card__desc">Tratamos cada cliente com atenção, cuidado e respeito desde a entrada.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SERVIÇOS ===================== -->
+    <section class="servicos" id="servicos" aria-labelledby="servicos-titulo">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">O que oferecemos</span>
+          <h2 class="section-title" id="servicos-titulo">Nossos Serviços</h2>
+          <p class="section-desc">Tudo o que você precisa para enxergar bem e com estilo, em um só lugar.</p>
+        </div>
+        <div class="servicos__grid">
+
+          <div class="servico-card" data-aos>
+            <div class="servico-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                <circle cx="12" cy="12" r="3"/>
+              </svg>
+            </div>
+            <h3 class="servico-card__title">Exame de Vista</h3>
+            <p class="servico-card__desc">Avaliação completa da saúde visual com equipamentos modernos.</p>
+          </div>
+
+          <div class="servico-card" data-aos>
+            <div class="servico-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="7" cy="12" r="4"/>
+                <circle cx="17" cy="12" r="4"/>
+                <line x1="11" y1="12" x2="13" y2="12"/>
+              </svg>
+            </div>
+            <h3 class="servico-card__title">Armações Modernas</h3>
+            <p class="servico-card__desc">Grande variedade de armações para todos os estilos e rostos.</p>
+          </div>
+
+          <div class="servico-card" data-aos>
+            <div class="servico-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+              </svg>
+            </div>
+            <h3 class="servico-card__title">Lentes Antirreflexo</h3>
+            <p class="servico-card__desc">Redução de reflexos para mais conforto e nitidez visual.</p>
+          </div>
+
+          <div class="servico-card" data-aos>
+            <div class="servico-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2"/>
+                <line x1="8" y1="21" x2="16" y2="21"/>
+                <line x1="12" y1="17" x2="12" y2="21"/>
+              </svg>
+            </div>
+            <h3 class="servico-card__title">Filtro de Luz Azul</h3>
+            <p class="servico-card__desc">Proteção contra a luz de telas para reduzir o cansaço visual.</p>
+          </div>
+
+          <div class="servico-card" data-aos>
+            <div class="servico-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/>
+              </svg>
+            </div>
+            <h3 class="servico-card__title">Ajuste e Manutenção</h3>
+            <p class="servico-card__desc">Consertos, ajustes e manutenção de armações e lentes.</p>
+          </div>
+
+          <div class="servico-card" data-aos>
+            <div class="servico-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="5"/>
+                <line x1="12" y1="1" x2="12" y2="3"/>
+                <line x1="12" y1="21" x2="12" y2="23"/>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                <line x1="1" y1="12" x2="3" y2="12"/>
+                <line x1="21" y1="12" x2="23" y2="12"/>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+              </svg>
+            </div>
+            <h3 class="servico-card__title">Óculos de Sol</h3>
+            <p class="servico-card__desc">Modelos com proteção UV e design moderno para o dia a dia.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== GALERIA ===================== -->
+    <section class="galeria" id="galeria" aria-labelledby="galeria-titulo">
+      <div class="container">
+        <div class="section-header section-header--light">
+          <span class="section-tag section-tag--light">Nosso espaço</span>
+          <h2 class="section-title section-title--light" id="galeria-titulo">Galeria</h2>
+          <p class="section-desc section-desc--light">Conheça nossa loja e nossos produtos.</p>
+        </div>
+        <div class="galeria__grid">
+          <div class="galeria__item galeria__item--large" data-aos>
+            <img src="./assets/img/01.jpg" alt="Interior da loja Ótica Ponto D' Vista" loading="lazy">
+            <div class="galeria__overlay"><span>Ver foto</span></div>
+          </div>
+          <div class="galeria__item" data-aos>
+            <img src="./assets/img/02.jpg" alt="Expositor de armações" loading="lazy">
+            <div class="galeria__overlay"><span>Ver foto</span></div>
+          </div>
+          <div class="galeria__item" data-aos>
+            <img src="./assets/img/03.jpg" alt="Óculos de sol na vitrine" loading="lazy">
+            <div class="galeria__overlay"><span>Ver foto</span></div>
+          </div>
+          <div class="galeria__item" data-aos>
+            <img src="./assets/img/04.jpg" alt="Atendimento ao cliente" loading="lazy">
+            <div class="galeria__overlay"><span>Ver foto</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FAQ ===================== -->
+    <section class="faq" id="faq" aria-labelledby="faq-titulo">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Tire suas dúvidas</span>
+          <h2 class="section-title" id="faq-titulo">Perguntas Frequentes</h2>
+          <p class="section-desc">Respostas rápidas para as dúvidas mais comuns dos nossos clientes.</p>
+        </div>
+        <div class="faq__grid">
+
+          <!-- Grupo: Armações -->
+          <div class="faq__group" data-aos>
+            <div class="faq__group-header">
+              <div class="faq__group-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="7" cy="12" r="4"/><circle cx="17" cy="12" r="4"/>
+                  <line x1="11" y1="12" x2="13" y2="12"/>
+                </svg>
+              </div>
+              <h3 class="faq__group-title">Sobre Armações</h3>
+            </div>
+            <div class="accordion">
+              <div class="accordion__item">
+                <button class="accordion__trigger" aria-expanded="false">
+                  <span>Como escolher a armação ideal?</span>
+                  <svg class="accordion__chevron" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+                </button>
+                <div class="accordion__panel" role="region">
+                  <p>Escolha considerando o formato do rosto e o conforto. Busque equilíbrio entre a largura da armação e a do rosto — armações que acompanham o contorno facial tendem a ser mais harmoniosas.</p>
+                </div>
+              </div>
+              <div class="accordion__item">
+                <button class="accordion__trigger" aria-expanded="false">
+                  <span>Metal ou acetato: qual é o melhor?</span>
+                  <svg class="accordion__chevron" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+                </button>
+                <div class="accordion__panel" role="region">
+                  <p>Metal é leve e discreto, ideal para quem prefere um visual mais clássico. Acetato é mais resistente e oferece maior variedade de cores e texturas, sendo uma opção mais estilosa.</p>
+                </div>
+              </div>
+              <div class="accordion__item">
+                <button class="accordion__trigger" aria-expanded="false">
+                  <span>Qual armação indicada para grau alto?</span>
+                  <svg class="accordion__chevron" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+                </button>
+                <div class="accordion__panel" role="region">
+                  <p>Armações menores e com hastes mais grossas ajudam a disfarçar lentes mais espessas. Combinadas com lentes de alto índice, o resultado final é muito mais discreto e confortável.</p>
+                </div>
+              </div>
+              <div class="accordion__item">
+                <button class="accordion__trigger" aria-expanded="false">
+                  <span>Armação infantil é diferente da adulta?</span>
+                  <svg class="accordion__chevron" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+                </button>
+                <div class="accordion__panel" role="region">
+                  <p>Sim. Armações infantis possuem encaixe anatômico melhor, materiais mais flexíveis e maior resistência a impactos, pensadas para o uso intenso do dia a dia das crianças.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Grupo: Lentes -->
+          <div class="faq__group" data-aos>
+            <div class="faq__group-header">
+              <div class="faq__group-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                </svg>
+              </div>
+              <h3 class="faq__group-title">Sobre Lentes</h3>
+            </div>
+            <div class="accordion">
+              <div class="accordion__item">
+                <button class="accordion__trigger" aria-expanded="false">
+                  <span>O que é lente antirreflexo?</span>
+                  <svg class="accordion__chevron" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+                </button>
+                <div class="accordion__panel" role="region">
+                  <p>É um tratamento aplicado à lente que reduz os reflexos de luz, melhorando a nitidez visual e o conforto, especialmente em ambientes iluminados e durante a direção noturna.</p>
+                </div>
+              </div>
+              <div class="accordion__item">
+                <button class="accordion__trigger" aria-expanded="false">
+                  <span>O filtro de luz azul realmente funciona?</span>
+                  <svg class="accordion__chevron" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+                </button>
+                <div class="accordion__panel" role="region">
+                  <p>Sim. O filtro de luz azul bloqueia parte da radiação emitida por telas de celular, computador e TV, ajudando a reduzir o cansaço visual e melhorar a qualidade do sono.</p>
+                </div>
+              </div>
+              <div class="accordion__item">
+                <button class="accordion__trigger" aria-expanded="false">
+                  <span>Lentes arranham com facilidade?</span>
+                  <svg class="accordion__chevron" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+                </button>
+                <div class="accordion__panel" role="region">
+                  <p>Sem os devidos cuidados, sim. Sempre limpe com pano de microfibra e evite superfícies abrasivas. Lentes com tratamento antirrisco têm maior durabilidade.</p>
+                </div>
+              </div>
+              <div class="accordion__item">
+                <button class="accordion__trigger" aria-expanded="false">
+                  <span>Lentes ficam mais grossas com grau alto?</span>
+                  <svg class="accordion__chevron" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+                </button>
+                <div class="accordion__panel" role="region">
+                  <p>Sim, mas lentes de alto índice de refração reduzem significativamente a espessura. Pergunte ao nosso optometrista sobre a melhor opção para o seu grau.</p>
+                </div>
+              </div>
+              <div class="accordion__item">
+                <button class="accordion__trigger" aria-expanded="false">
+                  <span>Posso reaproveitar minha armação antiga?</span>
+                  <svg class="accordion__chevron" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+                </button>
+                <div class="accordion__panel" role="region">
+                  <p>Depende do estado da armação. Em geral, se estiver em boas condições estruturais, é possível trocar apenas as lentes. Traga sua armação para uma avaliação gratuita.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CTA FINAL ===================== -->
+    <section class="cta-section" aria-label="Chamada para ação">
+      <div class="container cta-section__inner">
+        <div class="cta-section__text">
+          <h2 class="cta-section__title">Pronto para enxergar melhor?</h2>
+          <p class="cta-section__desc">Entre em contato agora pelo WhatsApp e agende seu atendimento. Estamos prontos para te ajudar!</p>
+        </div>
+        <a class="btn btn--gold btn--lg" href="https://wa.me/5581995554304?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20%C3%93tica%20Ponto%20D%27%20Vista%20e%20gostaria%20de%20agendar%20um%20atendimento." target="_blank" rel="noopener" aria-label="Agendar atendimento pelo WhatsApp">
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="btn__icon">
+            <path d="M20.52 3.48A11.8 11.8 0 0012 0C5.383 0 0 5.383 0 12a11.84 11.84 0 001.603 6.013L0 24l6.154-1.586A11.84 11.84 0 0012 24c6.617 0 12-5.383 12-12 0-3.168-1.234-6.146-3.48-8.52zM12 21.9c-1.775 0-3.523-.466-5.04-1.348l-.363-.215-3.653.943.975-3.56-.236-.376A9.878 9.878 0 012.1 12C2.1 6.57 6.57 2.1 12 2.1c2.623 0 5.089 1.023 6.94 2.874A9.803 9.803 0 0121.9 12c0 5.43-4.47 9.9-9.9 9.9z" fill="currentColor"/>
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.029-.967-.271-.099-.469-.149-.668.15-.198.297-.767.967-.94 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.463-2.39-1.476-.883-.788-1.48-1.76-1.653-2.057-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.173.198-.297.297-.495.099-.198.05-.372-.025-.521-.074-.149-.668-1.612-.915-2.21-.242-.579-.487-.501-.668-.51-.173-.009-.372-.011-.571-.011-.198 0-.52.074-.792.372-.271.297-1.04 1.016-1.04 2.479s1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.694.626.712.226 1.36.194 1.873.118.571-.085 1.758-.718 2.006-1.412.247-.694.247-1.289.173-1.412-.074-.123-.272-.198-.571-.347z" fill="currentColor"/>
+          </svg>
+          Agendar Atendimento
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer" aria-label="Rodapé">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <svg class="footer__logo-icon" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="60"  cy="40" r="22" fill="none" stroke="#D4AF37" stroke-width="2.5"/>
+          <circle cx="140" cy="40" r="22" fill="none" stroke="#D4AF37" stroke-width="2.5"/>
+          <line   x1="82"  y1="40" x2="118" y2="40" stroke="#D4AF37" stroke-width="2.5"/>
+        </svg>
+        <span class="footer__brand-name">Ótica Ponto D' Vista</span>
+        <p class="footer__tagline">Enxergue o mundo com clareza e estilo.</p>
+      </div>
+
+      <div class="footer__contact">
+        <h4 class="footer__heading">Contato</h4>
+        <ul class="footer__list">
+          <li>
+            <a class="footer__link" href="https://wa.me/5581995554304" target="_blank" rel="noopener" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.52 3.48A11.8 11.8 0 0012 0C5.383 0 0 5.383 0 12a11.84 11.84 0 001.603 6.013L0 24l6.154-1.586A11.84 11.84 0 0012 24c6.617 0 12-5.383 12-12 0-3.168-1.234-6.146-3.48-8.52zM12 21.9c-1.775 0-3.523-.466-5.04-1.348l-.363-.215-3.653.943.975-3.56-.236-.376A9.878 9.878 0 012.1 12C2.1 6.57 6.57 2.1 12 2.1c2.623 0 5.089 1.023 6.94 2.874A9.803 9.803 0 0121.9 12c0 5.43-4.47 9.9-9.9 9.9z" fill="currentColor"/><path d="M17.472 14.382c-.297-.149-1.758-.867-2.029-.967-.271-.099-.469-.149-.668.15-.198.297-.767.967-.94 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.463-2.39-1.476-.883-.788-1.48-1.76-1.653-2.057-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.173.198-.297.297-.495.099-.198.05-.372-.025-.521-.074-.149-.668-1.612-.915-2.21-.242-.579-.487-.501-.668-.51-.173-.009-.372-.011-.571-.011-.198 0-.52.074-.792.372-.271.297-1.04 1.016-1.04 2.479s1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.694.626.712.226 1.36.194 1.873.118.571-.085 1.758-.718 2.006-1.412.247-.694.247-1.289.173-1.412-.074-.123-.272-.198-.571-.347z" fill="currentColor"/></svg>
+              (81) 99555-4304
+            </a>
+          </li>
+          <li>
+            <a class="footer__link" href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+              @oticapontodvista
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__address">
+        <h4 class="footer__heading">Endereço</h4>
+        <a class="footer__link footer__link--address" href="https://www.google.com/maps/search/?api=1&query=Av.+A,+395+A+-+Maranguape+II,+Paulista+-+PE,+53421-030" target="_blank" rel="noopener" aria-label="Ver no Google Maps">
+          <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1112 6a2.5 2.5 0 010 5.5z"/></svg>
+          Av. A, 395 A — Maranguape II<br>Paulista - PE, 53421-030
+        </a>
       </div>
     </div>
-  </div>
-</section>
-</main>
-<section class="galeria">
-  <div class="container">
-    <h2>Galeria</h2>
-    <div class="gallery-grid">
-      <div class="gallery-item"><img src="./assets/img/01.jpg" alt="Foto 1"></div>
-      <div class="gallery-item"><img src="./assets/img/02.jpg" alt="Foto 2"></div>
-      <div class="gallery-item"><img src="./assets/img/03.jpg" alt="Foto 3"></div>
-      <div class="gallery-item"><img src="./assets/img/04.jpg" alt="Foto 4"></div>
-    </div>
-  </div>
-</section>
-<footer class="footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div class="footer-brand">Ótica Ponto D’ Vista</div>
-      <div class="footer-contact">
-        <a href="https://wa.me/5581995554304" target="_blank" rel="noopener">WhatsApp: (81) 99555-4304</a>
+
+    <div class="footer__bottom">
+      <div class="container">
+        <p>&copy; <span id="year"></span> Ótica Ponto D' Vista. Todos os direitos reservados.</p>
       </div>
-      <div class="footer-address">Av. A, 395 A • Maranguape II • Paulista - PE • 53421-030</div>
     </div>
-  </div>
-</footer>
-<script src="./assets/js/script.js"></script>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a class="whatsapp-float" href="https://wa.me/5581995554304?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20%C3%93tica%20Ponto%20D%27%20Vista%20e%20gostaria%20de%20tirar%20uma%20d%C3%BAvida." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M20.52 3.48A11.8 11.8 0 0012 0C5.383 0 0 5.383 0 12a11.84 11.84 0 001.603 6.013L0 24l6.154-1.586A11.84 11.84 0 0012 24c6.617 0 12-5.383 12-12 0-3.168-1.234-6.146-3.48-8.52zM12 21.9c-1.775 0-3.523-.466-5.04-1.348l-.363-.215-3.653.943.975-3.56-.236-.376A9.878 9.878 0 012.1 12C2.1 6.57 6.57 2.1 12 2.1c2.623 0 5.089 1.023 6.94 2.874A9.803 9.803 0 0121.9 12c0 5.43-4.47 9.9-9.9 9.9z" fill="currentColor"/>
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.029-.967-.271-.099-.469-.149-.668.15-.198.297-.767.967-.94 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.463-2.39-1.476-.883-.788-1.48-1.76-1.653-2.057-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.173.198-.297.297-.495.099-.198.05-.372-.025-.521-.074-.149-.668-1.612-.915-2.21-.242-.579-.487-.501-.668-.51-.173-.009-.372-.011-.571-.011-.198 0-.52.074-.792.372-.271.297-1.04 1.016-1.04 2.479s1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.694.626.712.226 1.36.194 1.873.118.571-.085 1.758-.718 2.006-1.412.247-.694.247-1.289.173-1.412-.074-.123-.272-.198-.571-.347z" fill="currentColor"/>
+    </svg>
+  </a>
+
+  <script src="./assets/js/script.js"></script>
 </body>
 </html>
